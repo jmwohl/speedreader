@@ -118,7 +118,7 @@ function kickIt() {
                     console.log(hasComma);
                 }
                 if (hasPeriod !== -1) {
-                    if (!caps.test(word) && wlen < 4) {
+                    if (!caps.test(word) && wlen > 4) {
                         ticks = 2;
                     }
                 }
